@@ -1,13 +1,13 @@
 page {
-  background: #fafafa;
+  background: #fafafa; 
   /* font-family:PingFang-SC-Medium; */ 
 }
- 
+
 .container {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; 
+} 
 
 .phcolor {
   color: #ccc;

@@ -1,6 +1,6 @@
 App({
   onLaunch: function() {
-    // 获取小程序更新机制兼容 
+    // 获取小程序更新机制兼容
     if (wx.canIUse('getUpdateManager')) {
       const updateManager = wx.getUpdateManager()
       updateManager.onCheckForUpdate(function(res) {
@@ -28,7 +28,7 @@ App({
             })
           })
         }
-      })
+      }) 
     } else {
       // 当前微信版本过低，无法使用该功能
     }
@@ -42,7 +42,7 @@ App({
   },
   globalData: {
     isLogin: wx.getStorageSync("thorui_mobile") ? true : false,
-    version: "1.9.0",
+    version: "3.0.0",
     isOnline:true,
     mobile:wx.getStorageSync("thorui_mobile") || "",
     statusBarHeight:0,
